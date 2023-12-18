@@ -1,0 +1,43 @@
+        <p class="hidden-paragraph">
+          Based on the first two years of my degree so far, I've been accustomed to various programming languages and paradigms such as <span>Python</span> for procedural, <span>Java</span> for object-oriented and <span>Haskell</span> for functional. 
+          I've also worked on both front-end and back-end for web development using <span>HTML</span>, <span>CSS</span>, <span>JS</span>, <span>PHP</span>, and <span>SQL</span> during my Team Projects module which is collaborated through <span>GitHub</span> and <span>Jira</span>. 
+          Additionally, I've completed a coursework project on embedded systems using <span>C/C++</span> on an Arduino Uno.
+          <br>
+          <br>
+          Regarding the theory modules, I've studied <span>Computer Systems</span>, <span>Software Engineering</span>, <span>Operating Systems, Network and Internet</span>, <span>Databases</span>, and <span>AI Methods</span>. 
+          I've also completed modules in <span>Mathematics for Computer Science</span>, <span>Logic for Computer Science</span>, <span>Algorithms</span>, <span>Computer Graphics</span>, and <span>Formal Languages and Theory of Computing</span>,
+          where all of these modules are interconnected with some aspect of computer science and software development.
+        </p>
+
+
+
+
+
+Based on the first two years of my degree so far, I've been accustomed to various programming languages and paradigms such as Python for procedural, Java for object-oriented and Haskell for functional. I've also worked on both front-end and back-end for web development using HTML, CSS, JS, PHP, and SQL during my Team Projects module which is collaborated through GitHub and Jira. Additionally, I've completed a coursework project on embedded systems using C/C++ on an Arduino Uno.
+
+Regarding the theory modules, I've studied Computer Systems, Software Engineering, Operating Systems, Network and Internet, Databases, and AI Methods. I've also completed modules in Mathematics for Computer Science, Logic for Computer Science, Algorithms, Computer Graphics, and Formal Languages and Theory of Computing, where all of these modules are interconnected with some aspect of computer science and software development.
+
+
+
+
+
+
+
+In the first two years of my degree, I've gained experience with various programming languages, paradigms and domains such as:
+-Python for procedural programming
+-Java for object-oriented programming
+-Haskell for functional programming
+-HTML, CSS, JS, PHP, and SQL for web development
+-C/C++ for embedded systems development
+
+Regarding the theory modules, I've studied:
+-Computer Systems
+-Software Engineering
+-Operating Systems, Network and Internet
+-Databases
+-AI Methods
+-Mathematics for Computer Science
+-Logic for Computer Science
+-Algorithms
+-Computer Graphics
+-Formal Languages and Theory of Computing

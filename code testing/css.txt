@@ -1,0 +1,33 @@
+.about-content .hidden-paragraph {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease; 
+  font-size: 1.4rem;
+  margin: 0rem 0 3rem;
+}
+
+.about-content .hidden-paragraph.active {
+  max-height: 500px;
+}
+
+
+
+
+
+
+---------------
+
+
+
+.about-content .hidden-paragraph {
+  opacity: 0; 
+  transform: translateY(-20px); 
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  font-size: 1.4rem;
+  margin: 0rem 0 3rem;
+}
+
+.about-content .hidden-paragraph.active {
+  opacity: 1; 
+  transform: translateY(0); 
+}

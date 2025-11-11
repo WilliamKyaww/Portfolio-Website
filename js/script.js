@@ -16,37 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-/*==================== contact me ====================*/
-const form = document.querySelector("form");
-
-const fullName = document.getElementById("name");
-const email = document.getElementById("email");
-const phone = document.getElementById("phone");
-const subject = document.getElementById("subject");
-const message = document.getElementById("message");
-
-function sendEmail() {
-  const bodyMessage = ‵Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Email Subject: ${subject.value}<br> Message: ${message.value}‵;
-
-  Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "williamkyaw.03@gmail.com",
-    Password : "04C9F132EC28D3B1A4C4F557236692099481",
-    To : 'williamkyaw.03@gmail.com',
-    From : "williamkyaw.03@gmail.com",
-    Subject : subject.value,
-    Body : bodyMessage
-  }).then(
-    message => alert(message)
-  );
-}
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  sendEmail();
-})
-
 /*==================== toggle icon navbar ====================*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');

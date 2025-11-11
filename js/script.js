@@ -99,7 +99,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Computer Science Student', 'AI Enthusiast', 'Future Software Engineer'],
+    strings: ['Computer Science Student', 'AI Enthusiast', 'Gym Rat'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

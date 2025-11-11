@@ -62,21 +62,21 @@
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Computer Science and AI Student</h3>
-        <p>Hi I'm Will, a highly motivated second year Computer Science and 
-          Artificial Intelligence student studying at Loughborough University. 
-          I have practical experience in data analysis, machine learning, and model
-          implementation using Python and SQL. Experienced in Agile teamwork
-          through GitHub and JIRA, applying analytical thinking to solve
-          technical problems.
 
-        </p>
-
-
-        <div class="expand-icon">
-          <a><i class='bx bx-expand-vertical'></i></a>
+        <!-- About text (default visible) -->
+        <div class="about-text visible">
+          <p>
+            Hi I'm Will, a highly motivated second year Computer Science and 
+            Artificial Intelligence student studying at Loughborough University. 
+            I have practical experience in data analysis, machine learning, and model
+            implementation using Python and SQL. Experienced in Agile teamwork
+            through GitHub and JIRA, applying analytical thinking to solve
+            technical problems.
+          </p>
         </div>
-        
-        <div class="hidden-paragraph">
+
+        <!-- Skills section (hidden by default) -->
+        <div class="skills-text hidden">
           <h4>Skills I have accumulated:</h4>
           <ul>
             <li><strong>Programming:</strong> Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow), Java, C++</li>
@@ -88,9 +88,13 @@
           </ul>
         </div>
 
-
+        <!-- Toggle button -->
+        <div class="toggle-btn">Relevant Skills</div>
+      </div>
 
     </section>
+
+
 
     <!-- projects section design -->
 

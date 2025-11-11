@@ -1,20 +1,23 @@
 /*==================== about me expand icon ====================*/
 document.addEventListener('DOMContentLoaded', function () {
-  const expandIcon = document.querySelector('.expand-icon a');
-  const hiddenParagraphs = document.querySelectorAll('.hidden-paragraph');
+  const toggleBtn = document.querySelector('.toggle-btn');
+  const aboutText = document.querySelector('.about-text');
+  const skillsText = document.querySelector('.skills-text');
 
-  expandIcon.addEventListener('click', function () {
-    hiddenParagraphs.forEach(paragraph => {
-      // Toggle class 'active'
-      paragraph.classList.toggle('active');
-    });
+  toggleBtn.addEventListener('click', function () {
+    // Toggle visibility
+    aboutText.classList.toggle('hidden');
+    aboutText.classList.toggle('visible');
+    skillsText.classList.toggle('hidden');
+    skillsText.classList.toggle('visible');
 
-    // Toggle icon
-    const icon = expandIcon.querySelector('i');
-    icon.classList.toggle('bx-x', hiddenParagraphs[0].classList.contains('active'));
-    icon.classList.toggle('bx-expand-vertical', !hiddenParagraphs[0].classList.contains('active'));
+    // Change button text
+    const showingSkills = skillsText.classList.contains('visible');
+    toggleBtn.textContent = showingSkills ? 'About Me' : 'Relevant Skills';
   });
 });
+
+
 
 /*==================== toggle icon navbar ====================*/
 let menuIcon = document.querySelector('#menu-icon');

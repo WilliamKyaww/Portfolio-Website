@@ -204,41 +204,53 @@ span {
   margin: 2rem 0 3rem;
 }
 
-.hidden-paragraph li {
-  font-size: 1.4rem;
+/* Toggle animation between sections */
+.about-text,
+.skills-text {
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.about-content .hidden-paragraph {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1s ease; 
-  font-size: 1.4rem;
-  margin: 0rem 0 3rem;
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  position: absolute;
 }
 
-.about-content .hidden-paragraph.active {
-  max-height: 500px;
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  position: relative;
 }
 
-.expand-icon a {
+/* Skill list styling */
+.skills-text li {
+  font-size: 1.6rem; /* Increased font size (see Question 2) */
+  margin-bottom: 0.8rem;
+}
+
+/* Toggle button styling */
+.toggle-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: .8rem;
+  padding: 1rem 2rem;
   background: var(--main-color);
-  border-radius: .8rem;
-  transition: .5s ease;
-  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  transition: 0.5s ease;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  font-weight: 600;
 }
 
-.expand-icon a:hover {
+.toggle-btn:hover {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-.expand-icon a i {
-  font-size: 1.6rem;
-  color: var(--second-bg-color);
-}
+
 
 /*==================== Projects Section ====================*/
 

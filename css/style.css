@@ -169,6 +169,11 @@ span {
 
 /*==================== About Section ====================*/
 
+p {
+  margin-bottom: 1.5rem;
+}
+
+
 .about {
   display: flex;
   justify-content: center;
